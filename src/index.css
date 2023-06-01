@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Toastify__toast--success {
+  background-color: rgba(0, 128, 0, 0.616);
+}
+.Toastify__toast--success * {
+  color: aliceblue;
+}
+
+.Toastify__toast--error {
+  background-color: rgba(255, 0, 0, 0.616);
+}
+.Toastify__toast--error * {
+  color: aliceblue;
+}
